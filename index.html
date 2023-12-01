@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raisen Villar - Links</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            VANTA.BIRDS({
+                el: "#vanta",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: true,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                backgroundAlpha: 0.5,
+                wingSpan: 40.00,
+                separation: 100.00,
+                alignment: 77.00,
+                cohesion: 5.00,
+                quantity: 3.00
+              })
+              setTimeout(() => {
+                const main = document.querySelector('main')
+                main.style.opacity = 1
+                main.style.filter = 'blur(0px)'
+              }, 1000)
+
+        })
+    </script>
+</head>
+<body>
+
+    <div id="vanta"></div>
+
+    <video autoplay muted loop playsinline>
+        <source src="/" type="video/mp4">
+    </video>
+    <main>
+        <header>
+            <img src="/Images/aki.png" alt="kuroneko-aki logo">
+                <h1>@aftrsunrai</h1>            
+        </header>
+        <ul>
+            <li>
+                <a href="/">
+                    <img src="/Images/home.png" alt="home" width="20">
+                    Official Website
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/raionyzus_">
+                    <img src="/Images/X.png" alt="X (twitter)" width="20">
+                    X (Twitter)
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/aftrsunrai/">
+                    <img src="/Images/facebook.png" alt="facebook" width="20">
+                    Facebook
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/kuroneko-aki">
+                    <img src="/Images/github.png" alt="github" width="20">
+                    Github
+                </a>
+            </li>
+        </ul>
+    </main>
+
+</body>
+</html>
