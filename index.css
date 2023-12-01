@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-    background: url(/images/red-torii-japan.jpg) repeat center center fixed;
+    background: url(./images/red-torii-japan.jpg) repeat center center fixed;
     block-size: cover;
 }
 
